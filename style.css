@@ -26,16 +26,16 @@ main{
 
 }
 
-#tel {
-    background-color: blue;
+section#tel {
     height: 627px;
     width: 311px;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: url(pacote-d013/imagens/frame-iphone.png);
     background-repeat: no-repeat;
+    
 }
 
 iframe#tela{
@@ -55,4 +55,12 @@ section#redes-sociais > a > img{
     margin: 10px;
     border-radius: 50px;
     box-shadow: 2px 2px 5pc rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+section#redes-sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.651);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform 0.3s, border .3s;
 }
