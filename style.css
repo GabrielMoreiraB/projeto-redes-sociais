@@ -43,6 +43,16 @@ iframe#tela{
     top: 80px;
     left: 22px;
     width: 269px;
-    height: 471px;
-    
+    height: 471px;  
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais > a > img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5pc rgba(0, 0, 0, 0.404);
 }
