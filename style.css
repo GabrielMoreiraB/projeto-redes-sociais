@@ -20,6 +20,12 @@ body{
 
 }
 
+div{
+    display: block;
+    height: 5PX;
+    width: 50PX;
+}
+
 main{
     height: 100vh;
 
