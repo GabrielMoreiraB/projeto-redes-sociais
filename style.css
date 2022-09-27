@@ -53,7 +53,7 @@ section#redes-sociais{
 }
 
 section#redes-sociais > a > img{
-    max-width: 50px;
+    height: 50px;
     margin: 10px;
     border-radius: 50px;
     box-shadow: 2px 2px 5pc rgba(0, 0, 0, 0.404);
