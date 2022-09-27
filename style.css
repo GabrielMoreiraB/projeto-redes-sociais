@@ -20,11 +20,6 @@ body{
 
 }
 
-div{
-    display: block;
-    height: 5PX;
-    width: 50PX;
-}
 
 main{
     height: 100vh;
@@ -33,6 +28,7 @@ main{
 }
 
 section#tel {
+    margin-right: 50px;
     height: 627px;
     width: 311px;
     position: absolute;
